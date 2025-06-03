@@ -1,0 +1,6 @@
+Runner.instance_.tRex.config.INVERT_FADE_DURATION = 0; // Prevents fade-in when dino becomes visible again
+Runner.instance_.tRex.spritePos = { x: 0, y: 0 }; // Prevents sprite errors (optional)
+Runner.instance_.tRex.config.SPRITE_WIDTH = 0; // Hide the sprite area
+
+// Hide the actual dino element by setting its opacity to 0 (completely invisible)
+Runner.instance_.tRex.sprite.style.opacity = 0;
