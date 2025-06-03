@@ -1,1 +1,41 @@
 # Google-Dino-Cheat
+
+Full Guide: "DinoGhost – Make Your Chrome Dino Invisible"
+A. What is DinoGhost?
+DinoGhost is a browser cheat that makes your dinosaur invisible in the Chrome Dino game, for fun and educational purposes.
+
+B. Requirements
+Google Chrome browser
+Access to the Chrome Dino game (chrome://dino)
+Basic knowledge of opening the browser console
+C. Step-by-Step Instructions
+1. Open the Chrome Dino Game
+Go offline and try to visit any website, or simply type chrome://dino in Chrome’s address bar.
+2. Open the Developer Console
+Press F12 or Ctrl+Shift+I (Windows/Linux) or Cmd+Option+I (Mac).
+Click on the Console tab.
+3. Start the Game
+Press the spacebar to start running.
+4. Paste and Run the Cheat Code
+Copy and paste the following code into the console:
+
+JavaScript
+// Make the Dino invisible
+Runner.instance_.tRex.visible = false;
+Alternatively, for a stronger effect, you can use:
+
+JavaScript
+// Hide the dino using CSS
+document.querySelector('.runner-canvas').getContext('2d').clearRect(0,0,600,150);
+5. Enjoy!
+Your Dino is now invisible while playing the game.
+To make the Dino reappear, you can refresh the page.
+D. Extra Tips
+To make Dino invincible (cannot die):
+JavaScript
+Runner.instance_.gameOver = function(){};
+To increase game speed:
+JavaScript
+Runner.instance_.setSpeed(100);
+E. Disclaimer
+This guide is for educational purposes only. Use these cheats responsibly and only for learning or fun.
