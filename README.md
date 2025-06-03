@@ -39,3 +39,4 @@ JavaScript
 Runner.instance_.setSpeed(100);
 E. Disclaimer
 This guide is for educational purposes only. Use these cheats responsibly and only for learning or fun.
+
